@@ -1,0 +1,11 @@
+.Card {
+    border: 1px solid rgb(65, 128, 243);
+    padding: 16px;
+    border-radius: 8px;
+    margin: 16px;
+    max-width: 300px;
+}
+.Card img {
+    width: 80%;
+    height: auto;
+}
