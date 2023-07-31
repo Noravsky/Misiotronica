@@ -1,11 +1,13 @@
 .Card {
-    border: 1px solid rgb(65, 128, 243);
+    border: 1px solid rgb(4, 34, 90);
     padding: 16px;
     border-radius: 8px;
     margin: 16px;
-    max-width: 300px;
+    max-width: 200px;
+    background-color:rgb(5, 5, 119);
 }
+
 .Card img {
-    width: 80%;
+    width: 70%;
     height: auto;
 }

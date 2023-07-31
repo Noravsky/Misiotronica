@@ -1,0 +1,5 @@
+.Store-body {
+    display:grid;
+    grid-template-columns:auto auto auto;
+    margin: 40px;
+}

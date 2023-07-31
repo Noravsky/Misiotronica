@@ -1,47 +1,37 @@
 import logo from './Logo1.jpeg';
 import './App.css';
-import Card from './Components/Card';
+import Home from './Components/Home/Home';
+import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
+import Store from './Components/Store/Store';
+import Notfound from './Components/Notfound/Notfound';
+import NavBar from './Components/NavBar/NavBar';
+import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+
+const rutas=createBrowserRouter(
+  [
+   {path:'/', element:<Home />},
+   {path:'/About', element:<About />},
+   {path:'/Contact', element:<Contact />},
+   {path:'/tienda', element:<Store />},
+   {path:'/*', element:<Notfound />},
+  ] 
+);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>BIENVENIDO A MISIOTRÓNICA</h1>
-        <p>Su tienda de componentes electrónicos
+     <div className="App"> 
+      <nav className='App-nav'>
+      <img src={logo} className="App-logo" alt="logo" id="logo" /> 
+     <NavBar /> 
+     <header className="App-header">  
+        <p>INSUMOS ELECTRÓNICOS
         </p>
-        <Card
-        image='Images/Auriculares.jpg'
-        title='Auriculares'
-        description='Todos los modelos'
-        />
-        <Card
-        image='./Images/Cables.jpg'
-        title='Cables'
-        description='Por metro y por bobina'
-        />
-        <Card
-        image='./Images/Circuitos.jpg'
-        title='Circuitos'
-        description='A pedido'
-        />
-         <Card
-        image='./Images/Control Remoto.jpg'
-        title='Controles Remotos'
-        description='Todas las marcas'
-        />
-        <Card
-        image='./Images/Microfonos2.jpg'
-        title='Micrófonos'
-        description='Te asesoramos para elegir el mejor'
-        />
-        <Card
-        image='./Images/Placas.jpg'
-        title='Placas'
-        description='Consultar disponibilidad'
-        />
-      </header>
+        </header>
+     <RouterProvider router={rutas} /> 
+        </nav>
     </div>
+  
   );
 }
 
