@@ -1,0 +1,8 @@
+#Error {
+    width:50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(4, 55, 133);
+}

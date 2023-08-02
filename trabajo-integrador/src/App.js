@@ -30,6 +30,13 @@ function App() {
         </header>
      <RouterProvider router={rutas} /> 
         </nav>
+        <footer className='App-footer'>
+          <p>Las imágenes son a modo ilustrativo.
+            <br/>
+            Los precios de la tienda son válidos también para compra
+            en nuestras sucursales.
+          </p>
+        </footer>
     </div>
   
   );

@@ -6,6 +6,10 @@
   background-image: url("Banner1.jpeg");
   background-repeat:no-repeat;
   background-size:cover;
+  background-color: #021c4e;
+  min-height: 10vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .App-logo {
@@ -27,13 +31,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-nav {
-  background-color: #021c4e;
+.App-footer {
+  background-color: #12055c;
   min-height: 10vh;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+  align-items:normal;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
   color: white;
+  font-weight: lighter;
 }
+
+
 
 .App-body {
   background-color: #749BC2; 
