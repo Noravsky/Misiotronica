@@ -6,25 +6,28 @@ import React, {useState} from "react";
 
 const Store=() => {
   const [searchQuery, setSearchQuery] = useState(" ");
+  /*Me queda pendiente hacer funcional la búsqueda, no logré aún el resultado que quiero*/
 
 
   const handleSearch = (query) => {
     setSearchQuery(query);
   };
 
-
-    return (
-       
+    return ( 
         <div className="Store">
 
        <header> <h1>Tienda</h1>
         <p>Nuestros productos</p>
-        <SearchBar onSearch={handleSearch} /> </header>
+        <SearchBar onSearch={handleSearch} />
+         </header>
 
         <aside className='Store-aside'>
           <p>
           </p>
       <SideBarMenu />
+      <div>
+      
+    </div>
         </aside>   
 
         <body className="Store-body">
