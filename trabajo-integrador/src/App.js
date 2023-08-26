@@ -1,4 +1,3 @@
-import logo from './Logo1.jpeg';
 import './App.css';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
@@ -22,10 +21,9 @@ function App() {
   return (
      <div className="App"> 
       <nav className='App-nav'>
-      <img src={logo} className="App-logo" alt="logo" id="logo" /> 
      <NavBar /> 
      <header className="App-header">  
-        <p>INSUMOS ELECTRÓNICOS
+        <p>MISIOTRONICA: TU PROVEEDOR DE INSUMOS ELECTRÓNICOS
         </p>
         </header>
      <RouterProvider router={rutas} /> 

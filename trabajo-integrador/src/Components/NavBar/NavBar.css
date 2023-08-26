@@ -2,7 +2,15 @@ li {
 display:inline;
 margin: 2vw;
 }
-
+ul {
+    margin-top: 0%;
+}
 a {
     color:white;
+}
+.NavBar-logo{
+    height: 30%;
+    width: 25%;
+    display:list-item;
+    border-radius:5%;
 }

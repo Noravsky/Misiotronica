@@ -12,14 +12,6 @@
   color: white;
 }
 
-.App-logo {
-  height: 320px;
-  width: 45%;
-  pointer-events: none;
-  display: center;
-  border-radius:10%;
-  margin: 15px;
- }
 
 .App-header {
   background-color: #2e678d;
@@ -34,10 +26,8 @@
 .App-footer {
   background-color: #12055c;
   min-height: 10vh;
-  display: flex;
-  align-items:normal;
-  justify-content: center;
-  font-size: calc(5px + 2vmin);
+  display:flex;
+  font-size: calc(3px + 2vmin);
   color: white;
   font-weight: lighter;
 }

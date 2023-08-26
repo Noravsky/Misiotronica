@@ -1,9 +1,14 @@
 import './NavBar.css';
+import logo from '../../Logo1.jpeg';
 
 const NavBar=() => {
     return (
-        <nav>
+        <nav> 
+            
             <ul>
+            <li>
+            <img src={logo} className="NavBar-logo" alt="logo" id="logo" />
+                </li>          
             <li>
                     <a href='/'>INICIO </a>
                 </li>

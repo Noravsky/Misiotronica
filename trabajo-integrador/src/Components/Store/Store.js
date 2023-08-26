@@ -1,5 +1,5 @@
-import './Store.css';
 import Card from '.././Card';
+import './Store.css';
 import SearchBar from "../SearchBar/SearchBar.js";
 import SideBarMenu from "../SideBarMenu/SideBarMenu.js";
 import React, {useState} from "react";
@@ -31,6 +31,7 @@ const Store=() => {
         </aside>   
 
         <body className="Store-body">
+      
         <Card
         image='./Images/Auriculares.jpg'
         title='Auriculares'
