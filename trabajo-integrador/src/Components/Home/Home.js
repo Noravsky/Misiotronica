@@ -6,7 +6,6 @@ const Home=() => {
     return (
         <div className="Home">
             <header>
-            <h1>BIENVENIDO</h1>
             <p>Te invitamos a recorrer nuestra tienda virtual</p>
             </header>
             <body>
